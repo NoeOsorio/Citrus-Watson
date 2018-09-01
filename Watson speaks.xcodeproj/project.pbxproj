@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC77DBED2138DBC6003F341E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77DBEC2138DBC6003F341E /* AppDelegate.swift */; };
+		DC77DBEF2138DBC6003F341E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77DBEE2138DBC6003F341E /* ViewController.swift */; };
+		DC77DBF22138DBC6003F341E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC77DBF02138DBC6003F341E /* Main.storyboard */; };
+		DC77DBF42138DBD2003F341E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC77DBF32138DBD2003F341E /* Assets.xcassets */; };
+		DC77DBF72138DBD2003F341E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC77DBF52138DBD2003F341E /* LaunchScreen.storyboard */; };
+		DC77DC022138DBD2003F341E /* Watson_speaksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77DC012138DBD2003F341E /* Watson_speaksTests.swift */; };
+		DC77DC0D2138DBD2003F341E /* Watson_speaksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77DC0C2138DBD2003F341E /* Watson_speaksUITests.swift */; };
+		DC77DC1D2138E01F003F341E /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC77DC1B2138E01E003F341E /* TextToSpeechV1.framework */; };
+		DC77DC1E2138E01F003F341E /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC77DC1C2138E01E003F341E /* ConversationV1.framework */; };
+		DC77DC2421398355003F341E /* AssistantV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC77DC2321398355003F341E /* AssistantV1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC77DBFE2138DBD2003F341E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC77DBE12138DBC6003F341E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC77DBE82138DBC6003F341E;
+			remoteInfo = "Watson speaks";
+		};
+		DC77DC092138DBD2003F341E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC77DBE12138DBC6003F341E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC77DBE82138DBC6003F341E;
+			remoteInfo = "Watson speaks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC77DBE92138DBC6003F341E /* Watson speaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watson speaks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC77DBEC2138DBC6003F341E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC77DBEE2138DBC6003F341E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC77DBF12138DBC6003F341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC77DBF32138DBD2003F341E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC77DBF62138DBD2003F341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC77DBF82138DBD2003F341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC77DBFD2138DBD2003F341E /* Watson speaksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watson speaksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC77DC012138DBD2003F341E /* Watson_speaksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watson_speaksTests.swift; sourceTree = "<group>"; };
+		DC77DC032138DBD2003F341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC77DC082138DBD2003F341E /* Watson speaksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watson speaksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC77DC0C2138DBD2003F341E /* Watson_speaksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watson_speaksUITests.swift; sourceTree = "<group>"; };
+		DC77DC0E2138DBD2003F341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC77DC1B2138E01E003F341E /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
+		DC77DC1C2138E01E003F341E /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
+		DC77DC2321398355003F341E /* AssistantV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssistantV1.framework; path = Carthage/Build/iOS/AssistantV1.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC77DBE62138DBC6003F341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77DC2421398355003F341E /* AssistantV1.framework in Frameworks */,
+				DC77DC1D2138E01F003F341E /* TextToSpeechV1.framework in Frameworks */,
+				DC77DC1E2138E01F003F341E /* ConversationV1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC77DBFA2138DBD2003F341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC77DC052138DBD2003F341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC77DBE02138DBC6003F341E = {
+			isa = PBXGroup;
+			children = (
+				DC77DBEB2138DBC6003F341E /* Watson speaks */,
+				DC77DC002138DBD2003F341E /* Watson speaksTests */,
+				DC77DC0B2138DBD2003F341E /* Watson speaksUITests */,
+				DC77DBEA2138DBC6003F341E /* Products */,
+				DC77DC1A2138E01E003F341E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC77DBEA2138DBC6003F341E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC77DBE92138DBC6003F341E /* Watson speaks.app */,
+				DC77DBFD2138DBD2003F341E /* Watson speaksTests.xctest */,
+				DC77DC082138DBD2003F341E /* Watson speaksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC77DBEB2138DBC6003F341E /* Watson speaks */ = {
+			isa = PBXGroup;
+			children = (
+				DC77DBEC2138DBC6003F341E /* AppDelegate.swift */,
+				DC77DBEE2138DBC6003F341E /* ViewController.swift */,
+				DC77DBF02138DBC6003F341E /* Main.storyboard */,
+				DC77DBF32138DBD2003F341E /* Assets.xcassets */,
+				DC77DBF52138DBD2003F341E /* LaunchScreen.storyboard */,
+				DC77DBF82138DBD2003F341E /* Info.plist */,
+			);
+			path = "Watson speaks";
+			sourceTree = "<group>";
+		};
+		DC77DC002138DBD2003F341E /* Watson speaksTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC77DC012138DBD2003F341E /* Watson_speaksTests.swift */,
+				DC77DC032138DBD2003F341E /* Info.plist */,
+			);
+			path = "Watson speaksTests";
+			sourceTree = "<group>";
+		};
+		DC77DC0B2138DBD2003F341E /* Watson speaksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC77DC0C2138DBD2003F341E /* Watson_speaksUITests.swift */,
+				DC77DC0E2138DBD2003F341E /* Info.plist */,
+			);
+			path = "Watson speaksUITests";
+			sourceTree = "<group>";
+		};
+		DC77DC1A2138E01E003F341E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC77DC2321398355003F341E /* AssistantV1.framework */,
+				DC77DC1C2138E01E003F341E /* ConversationV1.framework */,
+				DC77DC1B2138E01E003F341E /* TextToSpeechV1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC77DBE82138DBC6003F341E /* Watson speaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC77DC112138DBD2003F341E /* Build configuration list for PBXNativeTarget "Watson speaks" */;
+			buildPhases = (
+				DC77DBE52138DBC6003F341E /* Sources */,
+				DC77DBE62138DBC6003F341E /* Frameworks */,
+				DC77DBE72138DBC6003F341E /* Resources */,
+				DC77DC1F2138E0BE003F341E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watson speaks";
+			productName = "Watson speaks";
+			productReference = DC77DBE92138DBC6003F341E /* Watson speaks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC77DBFC2138DBD2003F341E /* Watson speaksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC77DC142138DBD2003F341E /* Build configuration list for PBXNativeTarget "Watson speaksTests" */;
+			buildPhases = (
+				DC77DBF92138DBD2003F341E /* Sources */,
+				DC77DBFA2138DBD2003F341E /* Frameworks */,
+				DC77DBFB2138DBD2003F341E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC77DBFF2138DBD2003F341E /* PBXTargetDependency */,
+			);
+			name = "Watson speaksTests";
+			productName = "Watson speaksTests";
+			productReference = DC77DBFD2138DBD2003F341E /* Watson speaksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC77DC072138DBD2003F341E /* Watson speaksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC77DC172138DBD2003F341E /* Build configuration list for PBXNativeTarget "Watson speaksUITests" */;
+			buildPhases = (
+				DC77DC042138DBD2003F341E /* Sources */,
+				DC77DC052138DBD2003F341E /* Frameworks */,
+				DC77DC062138DBD2003F341E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC77DC0A2138DBD2003F341E /* PBXTargetDependency */,
+			);
+			name = "Watson speaksUITests";
+			productName = "Watson speaksUITests";
+			productReference = DC77DC082138DBD2003F341E /* Watson speaksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC77DBE12138DBC6003F341E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Noe Osorio";
+				TargetAttributes = {
+					DC77DBE82138DBC6003F341E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DC77DBFC2138DBD2003F341E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DC77DBE82138DBC6003F341E;
+					};
+					DC77DC072138DBD2003F341E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DC77DBE82138DBC6003F341E;
+					};
+				};
+			};
+			buildConfigurationList = DC77DBE42138DBC6003F341E /* Build configuration list for PBXProject "Watson speaks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC77DBE02138DBC6003F341E;
+			productRefGroup = DC77DBEA2138DBC6003F341E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC77DBE82138DBC6003F341E /* Watson speaks */,
+				DC77DBFC2138DBD2003F341E /* Watson speaksTests */,
+				DC77DC072138DBD2003F341E /* Watson speaksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC77DBE72138DBC6003F341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77DBF72138DBD2003F341E /* LaunchScreen.storyboard in Resources */,
+				DC77DBF42138DBD2003F341E /* Assets.xcassets in Resources */,
+				DC77DBF22138DBC6003F341E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC77DBFB2138DBD2003F341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC77DC062138DBD2003F341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC77DC1F2138E0BE003F341E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/TextToSpeechV1.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ConversationV1.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AssistantV1.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = " /usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC77DBE52138DBC6003F341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77DBEF2138DBC6003F341E /* ViewController.swift in Sources */,
+				DC77DBED2138DBC6003F341E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC77DBF92138DBD2003F341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77DC022138DBD2003F341E /* Watson_speaksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC77DC042138DBD2003F341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77DC0D2138DBD2003F341E /* Watson_speaksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC77DBFF2138DBD2003F341E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC77DBE82138DBC6003F341E /* Watson speaks */;
+			targetProxy = DC77DBFE2138DBD2003F341E /* PBXContainerItemProxy */;
+		};
+		DC77DC0A2138DBD2003F341E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC77DBE82138DBC6003F341E /* Watson speaks */;
+			targetProxy = DC77DC092138DBD2003F341E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC77DBF02138DBC6003F341E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC77DBF12138DBC6003F341E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC77DBF52138DBD2003F341E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC77DBF62138DBD2003F341E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC77DC0F2138DBD2003F341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC77DC102138DBD2003F341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC77DC122138DBD2003F341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Watson speaks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candycloud.Watson-speaks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC77DC132138DBD2003F341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Watson speaks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candycloud.Watson-speaks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC77DC152138DBD2003F341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Watson speaksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candycloud.Watson-speaksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watson speaks.app/Watson speaks";
+			};
+			name = Debug;
+		};
+		DC77DC162138DBD2003F341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Watson speaksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candycloud.Watson-speaksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watson speaks.app/Watson speaks";
+			};
+			name = Release;
+		};
+		DC77DC182138DBD2003F341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Watson speaksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candycloud.Watson-speaksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Watson speaks";
+			};
+			name = Debug;
+		};
+		DC77DC192138DBD2003F341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Watson speaksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candycloud.Watson-speaksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Watson speaks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC77DBE42138DBC6003F341E /* Build configuration list for PBXProject "Watson speaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC77DC0F2138DBD2003F341E /* Debug */,
+				DC77DC102138DBD2003F341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC77DC112138DBD2003F341E /* Build configuration list for PBXNativeTarget "Watson speaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC77DC122138DBD2003F341E /* Debug */,
+				DC77DC132138DBD2003F341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC77DC142138DBD2003F341E /* Build configuration list for PBXNativeTarget "Watson speaksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC77DC152138DBD2003F341E /* Debug */,
+				DC77DC162138DBD2003F341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC77DC172138DBD2003F341E /* Build configuration list for PBXNativeTarget "Watson speaksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC77DC182138DBD2003F341E /* Debug */,
+				DC77DC192138DBD2003F341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC77DBE12138DBC6003F341E /* Project object */;
+}

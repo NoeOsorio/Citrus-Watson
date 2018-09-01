@@ -1,0 +1,62 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v0.32.0",
+  "iOS" : [
+    {
+      "name" : "LanguageTranslatorV2",
+      "hash" : "409df35b1d953b1d03e06ec192be8480be7d0f907fcfcf718ef7d88e2112e3d5"
+    },
+    {
+      "name" : "ToneAnalyzerV3",
+      "hash" : "dfcf4b332bc27f5dff7ef9549e5e6ccc7cf7544cdf9497f0d31b43172704cbec"
+    },
+    {
+      "name" : "NaturalLanguageClassifierV1",
+      "hash" : "014ea6e6d49a78cc128b439bc240b016c9a0eda3b7596059c532c616ed454643"
+    },
+    {
+      "name" : "PersonalityInsightsV3",
+      "hash" : "3747536b52b71b4d46cc74003e0af49cb34592b0e2082b54bebc8d35b2c21d49"
+    },
+    {
+      "name" : "LanguageTranslatorV3",
+      "hash" : "eb3d03bb7effde46a7cfb70b896c3a9b30c2d676937472fdaa71f90fd9f8782c"
+    },
+    {
+      "name" : "VisualRecognitionV3",
+      "hash" : "11224b65d718b01e199d0e51506075cf648419038d05b0bef7395adaf191ebb2"
+    },
+    {
+      "name" : "TextToSpeechV1",
+      "hash" : "d487d8bc6f93799615d3cbdfa8d53d6e0bd05d263491c0a92a7ca1766a634195"
+    },
+    {
+      "name" : "NaturalLanguageUnderstandingV1",
+      "hash" : "f6a10fd87dfd6dc4ad2d7b518911e730ca7e7dda63c9595665e19d3b112eb6a7"
+    },
+    {
+      "name" : "AssistantV1",
+      "hash" : "ef0dbf159dce3fda79ba664b33deed04efefe44af6ed6898d94a601349d2f529"
+    },
+    {
+      "name" : "ConversationV1",
+      "hash" : "e94df8102d889bb229659369c0d48d7c3e62f2addb62820bf76a19daba50ecbd"
+    },
+    {
+      "name" : "SpeechToTextV1",
+      "hash" : "f84f2a4e384945804819ec941c1549128f99ac92cb94adde8ea6f79aa8fafb93"
+    },
+    {
+      "name" : "DiscoveryV1",
+      "hash" : "4e562b76ecbc838814fa95e7dcc2fa17f09b056f6fe05779ce2e3c7796a1d19d"
+    }
+  ]
+}
